@@ -1,0 +1,15 @@
+.border {
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+}
+.border:hover {
+    box-shadow: 0 0.5rem 1rem rgb(255 255 255 / 15%) !important;
+}
+.anchor {
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+.anchor:hover{
+    text-decoration: underline;
+}

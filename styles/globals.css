@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+:root {
+    --bs-blue : #43CFD9;
+    --bs-green :#74D14C;
+    /* --bs-dark : #54D478; */
+    --font-family : 'Poppins', sans-serif;
+}
+body,html{
+    font-family: var(--font-family);
+    background-color: var(--bs-dark);
+    color: white;
+}
+.linear-text{
+    background: linear-gradient(var(--bs-blue), var(--bs-green));
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+hr{
+    margin: 0.3rem 0 !important;
+}
+.bg-black {
+    background-color: #151414 !important
+}
+
+
+.form-control:focus {
+    color: #212529;
+    background-color: white;
+    border-color: transparent;
+    outline: 1;
+    box-shadow: none;
+}
+
+.contact .form-control {
+    background-color: var(--bs-dark);
+    border-radius: 0px;
+    border: 1px solid white;
+    color: white;
+}
+.contact .form-control:focus {
+    background-color: var(--bs-dark);
+}
+.error {
+    font-size: 15px;
+    margin-left: 8px;
+}
+.modal {
+    padding-right: 0px !important;
+}
+.modal .modal-content {
+    background-color: transparent;
+    border: none;
+}
+.modal .modal-header {
+    border-bottom: none;
+}
+::placeholder {
+    color: white;
+}

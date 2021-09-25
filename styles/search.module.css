@@ -1,0 +1,24 @@
+.inputSearch {
+    border: none;
+    background: none;
+    width: 350px;
+    outline: none;
+    color: white;
+    font-size: 25px;
+}
+.inputSearch:focus {
+    background-color: black;
+}
+.icons {
+    font-size: 25px;
+    cursor: pointer;
+}
+.btn {
+    border: none;
+    background: transparent;
+    color: white;
+    font-size: 30px;
+}
+.border {
+    border-bottom: 3px solid white;
+}

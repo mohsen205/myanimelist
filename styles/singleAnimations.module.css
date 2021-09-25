@@ -1,0 +1,45 @@
+.card{
+    background-size: cover;
+    background-position: center;
+    height: 270px;
+    border-radius: 7px;
+    border: 1px solid white;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin: 15px;
+}
+.card:hover{
+    width: 400px;
+}
+.starIcons{
+    font-size: 40px;
+    color: #FFD700;
+}
+.starRank{
+    font-size: 13px;
+    font-weight: 500;
+    position: relative;
+    top: -29px;
+    left: 16px;
+}
+.hOne, .button{
+    display: none;
+}
+.card:hover > .hOne,.button{
+    display: unset;
+}
+.button{
+    border: none;
+    background-color: var(--bs-gray);
+    padding: 5px;
+    width: 110px;
+}
+@media (max-width: 991.98px) {
+    .card {
+        margin-bottom: 15px;
+    }
+    .card:hover{
+        width: 300px;
+    }
+ }

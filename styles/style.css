@@ -1,0 +1,56 @@
+footer li{
+    float: left;
+    margin-left: 15px;
+}
+nav {
+    padding: 10px 0px 5px 0px;
+    margin-bottom: 20px;
+    z-index: 999;
+}
+nav .btn-icons{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    color: white;
+}
+nav a:hover {
+    background: linear-gradient(var(--bs-blue), var(--bs-green));
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
+nav .active {
+    background: linear-gradient(var(--bs-blue), var(--bs-green));
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+nav li{
+    float: left;
+}
+nav .btn-open{
+    display: none !important;
+}
+
+@media (max-width: 991.98px) { 
+    nav li{
+        float: unset;
+    }
+    nav .btn-open{
+        display:unset !important;
+    }
+    nav .url {
+        background-color: #151414 ;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0px;
+        z-index: 55;
+    }
+    nav .show{
+        left: 0px;
+    }
+    nav .hide{
+        left: -999px;
+    }
+  
+ }
